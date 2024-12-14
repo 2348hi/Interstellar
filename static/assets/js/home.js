@@ -14,7 +14,7 @@ if (
   const popup = open("about:blank", "_blank");
   if (!popup || popup.closed) {
     alert(
-      "Please allow popups for this site. Doing so will allow us to open the site in a about:blank tab and preventing this site from showing up in your history. You can turn this off in the site settings.",
+      "Please allow popups for this site. Or Else",
     );
   } else {
     const doc = popup.document;
@@ -172,16 +172,16 @@ document.addEventListener("DOMContentLoaded", event => {
 });
 // Splash texts
 const SplashT = [
-  "Over 8 Million Users since 2023",
-  "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
-  "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
-  "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
+  "No one likes you",
+  "Stolen By Ev",
+  "Origninally Made by xBubbo Before I Stole It",
+  "Hola Como Estas? :)",
+  "Did You Steal This Site?????",
+  "This Proxy Is Built Diffrent",
+  "Coppied by me",
+  "...",
+  "I Will Do Updates............",
+  "R U Happy????",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
